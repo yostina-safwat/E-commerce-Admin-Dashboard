@@ -2,3 +2,49 @@
 @import "tailwindcss";
 @plugin "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
+
+:root {
+  --background: #fff;
+  --backgroundaccent: #f9fafb;
+  --backgroundtertiary: #f0f0f0;
+  --foreground: #333333;
+  --poppins: "Poppins", sans-serif;
+  --orange: #ff8a42;
+  --green: #244937;
+  --lightgreen: #def7ec;
+  --red: #ef4444;
+  --purple: #5521b5;
+  --sidebarhover: #def7ec;
+  --forminputs: #f9fafb;
+  --tabhover: #def7ec;
+  --tabtext: #244937;
+  --linecolor: #eee;
+  --checked: #244937;
+  --disabled: #f9fafb;
+  --borderdisabled: #d1d5db;
+  --switch: #244937;
+  --inputborder: #cecece;
+  --inputaccent: #f3f4f6;
+  --secondaryinput: #ffffff;
+  --customtab: #bbddcd;
+  --customborder: #eee;
+  --custombtn: #eee;
+  --custombtn2: #244937;
+  --custombtn3: #fff;
+  --custombtn4: #244937;
+  --arrowcolor: #244937;
+  --overlay: #00000080;
+  --custombackground: #999999;
+  --usersicon: #244937;
+  --textinput: #666666;
+  --backgroundNeutral: #ffffff;
+  --thirdaryinput: #f3f4f6;
+  --backgroundinputfield: #f9fafb;
+  --textinputnew: #666666;
+}
+
+@layer base {
+  * {
+    font-family: var(--font-poppins);
+  }
+}
