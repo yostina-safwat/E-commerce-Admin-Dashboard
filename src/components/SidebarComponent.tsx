@@ -204,7 +204,7 @@ const SidebarComponent = () => {
           </Link>
         </div>
 
-        <SidebarItems className="flex-grow">
+        <SidebarItems className="grow">
           <SidebarItemGroup>
             <p className="text-xs font-[#717680]">GENERAL</p>
             {LinksBeforeDivider.map((link, index) => (

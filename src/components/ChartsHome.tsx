@@ -109,7 +109,7 @@ const ChartsHome: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
+    <div className="p-6 bg-backgroundaccent ">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* === Revenue Chart === */}
         <div className="w-full bg-white dark:bg-gray-800 rounded-xl shadow p-5">

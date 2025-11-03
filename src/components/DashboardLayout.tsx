@@ -9,7 +9,7 @@ const DashboardLayout = () => {
       {/* Main Content */}
       <div className="w-full sm:w-[calc(100%-16rem)] bg-backgroundaccent ml-auto  min-h-screen">
         {/* Header with Menu Toggle for Mobile */}
-        <header className="h-[5rem] flex items-center justify-between gap-8 bg-background text-foreground">
+        <header className="h-20 flex items-center justify-between gap-8 bg-background text-foreground">
           <div className="ml-8">
             <h2>Welcome back, Olivia</h2>
             <p className="text-sm text-gray-500 dark:text-gray-400">

@@ -42,7 +42,7 @@ const metrics: Metric[] = [
 
 const CardsHome = () => {
   return (
-    <div className="p-6 bg-backgroundaccent min-h-screen">
+    <div className="p-6 bg-backgroundaccent ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
         {metrics.map((metric, index) => (
           <Card key={index} className="">
