@@ -109,10 +109,10 @@ const ChartsHome: React.FC = () => {
   };
 
   return (
-    <div className="p-6 bg-backgroundaccent ">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div className="p-6 bg-backgroundaccent">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* === Revenue Chart === */}
-        <div className="w-full bg-white dark:bg-gray-800 rounded-xl shadow p-5">
+        <div className="lg:col-span-2 w-full bg-white dark:bg-gray-800 rounded-xl shadow p-5">
           <div className="flex items-center justify-between mb-3">
             <div>
               <h5 className="text-sm text-gray-500">Revenue</h5>
@@ -146,7 +146,7 @@ const ChartsHome: React.FC = () => {
         </div>
 
         {/* === Order Status === */}
-        <div className="w-full bg-white dark:bg-gray-800 rounded-xl shadow p-5 flex flex-col items-center justify-center">
+        <div className="lg:col-span-1 w-full bg-white dark:bg-gray-800 rounded-xl shadow p-5 flex flex-col items-center justify-center">
           <h5 className="text-sm text-gray-500 mb-3">Order by status</h5>
 
           <ReactApexChart
